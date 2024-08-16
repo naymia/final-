@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" Content="Nay Mengi">
+    <meta name="description" content="this page contains information I am learning about HTML.">
+    <link rel="Stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="destination" href="lake como.html">
+    
+
+    <title>Travel Landing Page</title>
+  
+  </head>
+
+  <body>
+        <section class="showcase">
+        <header>
+          <h2 class="logo">Travel</h2>
+          <div class="toggle"></div>
+          </header>
+
+          <video src="img/Travel blog viedo.mp4" Muted loop autoplay></video>
+          
+          <div class="overlay"></div>
+       
+          <div class="text">
+             <h2>Travelogist</h2>
+             <h3>Explore</h3>
+             <p> Dreaming of a new destination?</p>
+              <a href="#">Explore</a>
+            </div>
+
+            <ul class="social">
+              <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+              <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+              <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+            </ul>
+        </section>
+
+<div class="menu">
+<ul> 
+       <li><a href="#">Home</a></li>
+       <li><a href="lake como.html">Destinations</a></li>
+       <li><a href="Practice.html">Blog</a></li>
+       <li><a href="log in.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <script>
+      const menuToggle = document.querySelector ('.toggle');
+      const showcase = document.querySelector ('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+  </body>
+</html>
+
